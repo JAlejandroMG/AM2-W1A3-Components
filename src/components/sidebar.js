@@ -10,7 +10,7 @@ import Suscriptions from "../icons/iconfinder_ic_subscriptions_48px_3669213.png"
 import Playlist from "../icons/iconfinder_ic_playlist_play_48px_3669290.png";
 
 
-export function Sidebar(props) {
+export function Sidebar() {
   return <div className="sidebar">
     <Icon iconUrl={Home} title="Principal" />
     <Icon iconUrl={Fire} title="Tendencias" />
